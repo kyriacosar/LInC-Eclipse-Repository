@@ -8,7 +8,7 @@ import json
 import math
 
 if __name__ == '__main__':
-    # Opening the necessary files.
+    # Opening the necessary files:
     # Input files:
     e_file_in = open("../TwitterDataDictionaries/Twitter_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
     e_file_in_att = open("../TwitterDataDictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
