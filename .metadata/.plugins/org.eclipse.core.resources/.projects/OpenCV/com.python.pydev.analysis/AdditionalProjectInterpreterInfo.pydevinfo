@@ -1,0 +1,29 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/kyriacos/eclipse/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/OpenCV/com.python.pydev.analysis/v2_indexcache
+Tests.wdwdw|1498555787000000000|/home/kyriacos/eclipse/Python/OpenCV/Tests/wdwdw.py
+Tests.__init__|1498553185000000000|/home/kyriacos/eclipse/Python/OpenCV/Tests/__init__.py
+Tests.ManyValues|1498554736000000000|/home/kyriacos/eclipse/Python/OpenCV/Tests/ManyValues.py
+Tests.PrintTest|1498553337000000000|/home/kyriacos/eclipse/Python/OpenCV/Tests/PrintTest.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=Tests.wdwdw
+3=Tests.ManyValues
+2=Tests.PrintTest
+-- END DICTIONARY
+-- START TREE 1
+9
+box|1|box!11@
+dis|1|distance_to_camera!10@
+fin|1|find_marker!10@
+foc|1|focalLength!11@
+ima|3|IMAGE_PATHS!11@image!19@image!11@
+inc|1|inches!11@
+kno|2|KNOWN_WIDTH!11@KNOWN_DISTANCE!11@
+mar|1|marker!11@
+sup|1|superDynaParams!26@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

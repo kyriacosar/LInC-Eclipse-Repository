@@ -1,0 +1,37 @@
+Average Crunchbase Entrepreneur emotions: 
+Sample size: 95641
+
+Sadness: 0.0362157756611
+Neutral: 0.457517644107
+Contempt: 0.00364112671344
+Disgust: 0.00120011292228
+Anger: 0.00863881598896
+Surprise: 0.00417831264834
+Fear: 0.00156913875848
+Happiness :0.486872199161
+
+
+Average Twitter Entrepreneur emotions:
+Sample size: 652
+
+Sadness: 0.0196349693252
+Neutral: 0.418421779141
+Contempt: 0.00849386503067
+Disgust: 0.00146779141104
+Anger: 0.00731901840491
+Surprise: 0.0122285276074
+Fear: 0.00218558282209
+Happiness :0.530096625767
+
+
+Average Twitter non Entrepreneur emotions:
+Sample size: 454
+
+Sadness: 0.0246916299559
+Neutral: 0.424226872247
+Contempt: 0.0114757709251
+Disgust: 0.00128854625551
+Anger: 0.00759471365639
+Surprise: 0.0188920704846
+Fear: 0.00154625550661
+Happiness :0.510072687225

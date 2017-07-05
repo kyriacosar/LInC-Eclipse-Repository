@@ -1,0 +1,5 @@
+This file is a test.
+It is used for examples regarding filestreams in Python.
+It was created with great love and care.
+It is suitable for beginners that don't know shit.
+Thanks.

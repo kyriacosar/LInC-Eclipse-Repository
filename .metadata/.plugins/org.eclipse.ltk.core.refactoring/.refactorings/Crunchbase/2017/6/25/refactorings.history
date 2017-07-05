@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Chunchbase/Average/__init__.py&apos; to &apos;AverageEntrepreneur.py&apos;" description="Rename resource &apos;__init__.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Average/__init__.py" name="AverageEntrepreneur.py" stamp="1498120236883" updateReferences="true"/>
+</session>

@@ -1,0 +1,32 @@
+'''
+Created on Jun 30, 2017
+
+@author: kyriacos
+'''
+
+import math
+
+if __name__ == '__main__':
+
+    leftX = 58.2
+    leftY = 64.2
+       
+    rightX = 84.5
+    rightY = 63
+    
+    yaw = -13.7
+    
+    rectSide = 60
+    
+    # Calculating pupil distance by using the distance between two points formula.
+    partY = math.pow((leftY - rightY), 2)
+    partX = math.pow((leftX - rightX), 2)
+    dist = math.sqrt(partY+partX)
+                
+    # Using the Pythagorean theorem to adjust pupil distance based on yaw.
+    dist = math.sqrt(math.pow(dist,2)+math.pow(yaw, 2))
+                
+    # Adjusting pupil distance based on the face rectangle size.
+    adjusted_dist = dist*100/rectSide
+    
+    print("Adjusted pupil distance = "+str(adjusted_dist))

@@ -1,0 +1,106 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/home/kyriacos/eclipse/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/Tests/com.python.pydev.analysis/v2_indexcache
+Intro_Set.FileHandler|1497860178000000000|/home/kyriacos/eclipse/Python/Tests/Intro_Set/FileHandler.py
+Tuples.__init__|1497874197000000000|/home/kyriacos/eclipse/Python/Tests/Tuples/__init__.py
+Dictionaries.__init__|1497875194000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/__init__.py
+Dictionaries.Test|1497875486000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/Test.py
+Intro_Set.__init__|1497854290000000000|/home/kyriacos/eclipse/Python/Tests/Intro_Set/__init__.py
+Lists.Sets|1497875128000000000|/home/kyriacos/eclipse/Python/Tests/Lists/Sets.py
+Dictionaries.Functions|1497876066000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/Functions.py
+Lists.__init__|1497867447000000000|/home/kyriacos/eclipse/Python/Tests/Lists/__init__.py
+Crunchbase.__init__|1497943283000000000|/home/kyriacos/eclipse/Python/Tests/Crunchbase/__init__.py
+Dictionaries.ForLoop|1497876206000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/ForLoop.py
+Time.Remainder|1499066881000000000|/home/kyriacos/eclipse/Python/Tests/Time/Remainder.py
+Time.__init__|1499065683000000000|/home/kyriacos/eclipse/Python/Tests/Time/__init__.py
+Intro_Set.PowerTest|1497863472000000000|/home/kyriacos/eclipse/Python/Tests/Intro_Set/PowerTest.py
+Functions.SwitchCaseTest|1497865837000000000|/home/kyriacos/eclipse/Python/Tests/Functions/SwitchCaseTest.py
+Crunchbase.Test|1497953643000000000|/home/kyriacos/eclipse/Python/Tests/Crunchbase/Test.py
+Lists.Mapping|1497874783000000000|/home/kyriacos/eclipse/Python/Tests/Lists/Mapping.py
+Time.SimpleTIme|1499071325000000000|/home/kyriacos/eclipse/Python/Tests/Time/SimpleTIme.py
+Lists.Comparison|1497867547000000000|/home/kyriacos/eclipse/Python/Tests/Lists/Comparison.py
+Time.OddEven|1499071226000000000|/home/kyriacos/eclipse/Python/Tests/Time/OddEven.py
+Intro_Set.Loops|1497868376000000000|/home/kyriacos/eclipse/Python/Tests/Intro_Set/Loops.py
+Functions.__init__|1497863667000000000|/home/kyriacos/eclipse/Python/Tests/Functions/__init__.py
+Intro_Set.Power|1497863448000000000|/home/kyriacos/eclipse/Python/Tests/Intro_Set/Power.py
+Functions.PredeterminedParameters|1497874975000000000|/home/kyriacos/eclipse/Python/Tests/Functions/PredeterminedParameters.py
+Intro_Set.Strings|1497874124000000000|/home/kyriacos/eclipse/Python/Tests/Intro_Set/Strings.py
+Lists.ListFromFile|1497872301000000000|/home/kyriacos/eclipse/Python/Tests/Lists/ListFromFile.py
+Lists.Functions|1497872936000000000|/home/kyriacos/eclipse/Python/Tests/Lists/Functions.py
+Tuples.Test|1497874442000000000|/home/kyriacos/eclipse/Python/Tests/Tuples/Test.py
+Dictionaries.List_in_Dictionary|1498046595000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/List_in_Dictionary.py
+Lists.LenFunction|1497873790000000000|/home/kyriacos/eclipse/Python/Tests/Lists/LenFunction.py
+Functions.SwitchCase|1497865834000000000|/home/kyriacos/eclipse/Python/Tests/Functions/SwitchCase.py
+Dictionaries.Exercise1|1499162812000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/Exercise1.py
+-- END DISKCACHE
+-- START DICTIONARY
+22
+11=Intro_Set.FileHandler
+22=Functions.SwitchCaseTest
+5=Crunchbase.Test
+10=Time.SimpleTIme
+15=Lists.Mapping
+6=Dictionaries.Test
+9=Time.OddEven
+17=Lists.Comparison
+13=Intro_Set.Loops
+19=Lists.Sets
+18=Dictionaries.Functions
+21=Intro_Set.Power
+4=Functions.PredeterminedParameters
+3=Intro_Set.Strings
+12=Lists.ListFromFile
+14=Lists.Functions
+20=Tuples.Test
+1=Dictionaries.ForLoop
+8=Dictionaries.List_in_Dictionary
+2=Lists.LenFunction
+7=Functions.SwitchCase
+16=Dictionaries.Exercise1
+-- END DICTIONARY
+-- START TREE 1
+40
+a_d|1|a_dict!11@
+ali|2|alist!19@alist!27@
+alp|1|alphas!27@
+b_d|1|b_dict!11@
+bli|1|blist!19@
+box|1|box!34@
+cli|1|client!43@
+col|1|collection_Entrepreneurs!43@
+con|1|contacts!51@
+cra|1|crazyWord!58@
+cur|1|cursor!43@
+db|1|db!43@
+dic|1|dictWithList!67@
+dig|1|digitSum!74@
+e_f|1|e_file_out!43@
+eve|2|even!75@even!83@
+fil|3|fileIn!91@fileIn!99@fileOut!91@
+fru|1|fruit!19@
+j|1|j!107@
+lis|1|list_word!115@
+lsq|2|lSquares2!123@lSquares!123@
+my_|6|my_dict!131@my_list!131@my_list_1!139@my_list_2!139@my_square_function!130@my_dict!11@
+myd|1|myDict!147@
+myl|2|myList!155@mylist!19@
+mys|2|mystr!27@mySet!155@
+myt|4|myTuple!163@myTuple2!163@myTuple3!163@myTuple1!163@
+new|2|newlist!19@newData!91@
+num|4|nums!27@num_table!99@numbers!19@num_list!115@
+odd|2|odd!75@odd!83@
+ori|1|origlist!19@
+pow|2|power!170@power2!122@
+sen|2|sent!27@sentence!107@
+tem|1|temp!19@
+tes|1|test!179@
+tim|3|time!83@timeCheck!74@time!75@
+wor|2|word!107@word!115@
+x|3|x!19@x!107@x!27@
+y|2|y!107@y!27@
+you|1|yourDict!147@
+z|1|z!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

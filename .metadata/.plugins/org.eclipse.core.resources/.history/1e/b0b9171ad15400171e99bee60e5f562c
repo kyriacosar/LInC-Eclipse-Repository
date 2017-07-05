@@ -1,0 +1,15 @@
+'''
+Created on Jun 19, 2017
+
+@author: kyriacos
+'''
+
+def crazyWord(word):
+    for i in (0, len(word)):
+        if (i%2==0):
+            if(word[i]>='a' or word[i]<='z'):
+                word[i]=word[i]-('a'-'A')
+        else:
+            if(word[i]>='A' or word[i]<='Z'):
+                word[i]=word[i]+('a'-'A')
+        

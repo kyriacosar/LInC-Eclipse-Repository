@@ -1,0 +1,12 @@
+'''
+Created on Jun 19, 2017
+
+@author: kyriacos
+'''
+
+def crazyWord(word):
+    for i in (0, len(word)):
+        if (i%2==0)
+        word[i]=word[i]-'A'
+        
+        

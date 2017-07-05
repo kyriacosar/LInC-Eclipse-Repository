@@ -1,0 +1,8 @@
+'''
+Created on Jun 19, 2017
+
+@author: kyriacos
+'''
+
+fileIn = open("numbers.txt", "r")
+print(fileIn.read())

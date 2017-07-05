@@ -1,0 +1,23 @@
+'''
+Created on Jul 3, 2017
+
+@author: kyriacos
+'''
+
+def timeCheck(time):
+    sum = 0
+    while time > 0:
+        rem = time % 10
+        time = time / 10
+        sum += rem
+    
+if __name__ == "__main__":
+    time = 0
+    even = 0
+    odd = 0
+    
+    for time in range(0, 2359):
+        if timeCheck:
+            even += 1
+        else:
+            odd += 1
