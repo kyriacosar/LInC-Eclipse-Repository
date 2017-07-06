@@ -10,11 +10,11 @@ import math
 if __name__ == '__main__':
     # Opening the necessary files.
     # Input files:
-    e_file_in = open("../CrunchbaseDataDictionaries/Crunchbase_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
-    e_file_in_att = open("../CrunchbaseDataDictionaries/Crunchbase_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
-    e_file_in_rect = open("../CrunchbaseDataDictionaries/Crunchbase_Entrepreneurs_Rectangles_Dictionaries.json", "r")
-    # Output file:
-    e_file_out = open("Entrepreneurs_Pupil_Distance.txt", "w")
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Dictionaries/Crunchbase_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
+    e_file_in_att = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Dictionaries/Crunchbase_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
+    e_file_in_rect = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Dictionaries/Crunchbase_Entrepreneurs_Rectangles_Dictionaries.json", "r")
+    # Output files:
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Extraction/Crunchbase_Entrepreneurs_Pupil_Distance.txt", "w")
     
     # Initialize variables.
     pos = 0
