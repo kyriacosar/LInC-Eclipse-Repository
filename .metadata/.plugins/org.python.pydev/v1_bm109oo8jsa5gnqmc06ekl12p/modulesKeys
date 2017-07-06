@@ -622,6 +622,7 @@ ctypes.__init__|/usr/lib/python2.7/ctypes/__init__.py
 ctypes._endian|/usr/lib/python2.7/ctypes/_endian.py
 ctypes.util|/usr/lib/python2.7/ctypes/util.py
 ctypes.wintypes|/usr/lib/python2.7/ctypes/wintypes.py
+curl.__init__|/usr/lib/python2.7/dist-packages/curl/__init__.py
 curses.__init__|/usr/lib/python2.7/curses/__init__.py
 curses.ascii|/usr/lib/python2.7/curses/ascii.py
 curses.has_key|/usr/lib/python2.7/curses/has_key.py
@@ -2488,6 +2489,15 @@ sndhdr|/usr/lib/python2.7/sndhdr.py
 socket|/usr/lib/python2.7/socket.py
 softwarecenter_aptd_plugins.__init__|/usr/lib/python2.7/dist-packages/softwarecenter_aptd_plugins/__init__.py
 softwarecenter_aptd_plugins.add_license_key_plugin|/usr/lib/python2.7/dist-packages/softwarecenter_aptd_plugins/add_license_key_plugin.py
+softwareproperties.AptAuth|/usr/lib/python2.7/dist-packages/softwareproperties/AptAuth.py
+softwareproperties.CountryInformation|/usr/lib/python2.7/dist-packages/softwareproperties/CountryInformation.py
+softwareproperties.MirrorTest|/usr/lib/python2.7/dist-packages/softwareproperties/MirrorTest.py
+softwareproperties.SoftwareProperties|/usr/lib/python2.7/dist-packages/softwareproperties/SoftwareProperties.py
+softwareproperties.__init__|/usr/lib/python2.7/dist-packages/softwareproperties/__init__.py
+softwareproperties.cloudarchive|/usr/lib/python2.7/dist-packages/softwareproperties/cloudarchive.py
+softwareproperties.distro|/usr/lib/python2.7/dist-packages/softwareproperties/distro.py
+softwareproperties.ppa|/usr/lib/python2.7/dist-packages/softwareproperties/ppa.py
+softwareproperties.shortcuts|/usr/lib/python2.7/dist-packages/softwareproperties/shortcuts.py
 spwd
 sqlite3.__init__|/usr/lib/python2.7/sqlite3/__init__.py
 sqlite3.dbapi2|/usr/lib/python2.7/sqlite3/dbapi2.py

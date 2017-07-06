@@ -30,8 +30,8 @@ if __name__ == '__main__':
     
     # Adding titles to the output file.
     e_file_out.write("Pupil distance of Entrepreneurs:\n\n")
-    e_file_out.write("ID\t\t\tDistance\n")
-    e_file_out.write("-"*9+"\t\t"+"-"*13+"\n")
+    e_file_out.write("ID\t\t\t\t\tDistance\n")
+    e_file_out.write("-"*36+"\t"+"-"*13+"\n")
     
     # Reading the JSON formatted face landmarks records.    
     for record in e_file_in:
@@ -84,16 +84,11 @@ if __name__ == '__main__':
                 adjusted_dist_sum += adjusted_dist
                 count += 1
                 
-                # Based on the ID length, the right amount of tabs are written to the output file.
-                if str(jDict['_id']).__len__() >= 16:
-                    e_file_out.write(str(jDict['_id'])+"\t"+str(adjusted_dist)+"\n")
-                elif str(jDict['_id']).__len__() >= 8:
-                    e_file_out.write(str(jDict['_id'])+"\t\t"+str(adjusted_dist)+"\n")
-                else:
-                    e_file_out.write(str(jDict['_id'])+"\t\t\t"+str(adjusted_dist)+"\n")
+                # Printing results to file.
+                e_file_out.write(str(jDict['_id'])+"\t"+str(adjusted_dist)+"\n")
                 
         except ValueError:
                 print("Error in json to dictionary translation.")
     
-    # Calculating the average pupil distance and writting in the output file.
+    # Calculating the average pupil distance and writing in the output file.
     e_file_out.write("\nAverage distance: "+str(adjusted_dist_sum/count))

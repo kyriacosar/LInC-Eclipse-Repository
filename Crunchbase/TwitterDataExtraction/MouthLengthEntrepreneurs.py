@@ -10,11 +10,11 @@ import math
 if __name__ == '__main__':
     # Opening the necessary files.
     # Input files:
-    e_file_in = open("../TwitterDataDictionaries/Twitter_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
-    e_file_in_att = open("../TwitterDataDictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
-    e_file_in_rect = open("../TwitterDataDictionaries/Twitter_Entrepreneurs_Rectangles_Dictionaries.json", "r")
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
+    e_file_in_att = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
+    e_file_in_rect = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_Rectangles_Dictionaries.json", "r")
     # Output file:
-    e_file_out = open("Twitter_Entrepreneurs_Mouth_Length.txt", "w")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Extraction/Twitter_Entrepreneurs_Mouth_Length.txt", "w")
     
     # Initialize variables.
     pos = 0
@@ -29,7 +29,7 @@ if __name__ == '__main__':
         rectList.append(rectRecord)
     
     # Adding titles to the output file.
-    e_file_out.write("Pupil distance of Entrepreneurs:\n\n")
+    e_file_out.write("Mouth length of Entrepreneurs:\n\n")
     e_file_out.write("ID\t\t\tDistance\n")
     e_file_out.write("-"*9+"\t\t"+"-"*13+"\n")
     

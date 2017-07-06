@@ -1,9 +1,1 @@
-INSTUPCrunchbaseDataOutput.EntrepreneursRectanglesOutput
-/home/kyriacos/eclipse/Python/Crunchbase/CrunchbaseDataOutput/EntrepreneursRectanglesOutput.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0
-cursor=5
-client=1
-CrunchbaseDataOutput.EntrepreneursRectanglesOutput=2
-e_file_out=6
-collection_Entrepreneurs=4
-db=3
+DELSTRCrunchbaseDataExtraction.MouthLengthEntrepreneurs
