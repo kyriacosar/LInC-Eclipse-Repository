@@ -14,6 +14,10 @@ if __name__ == '__main__':
     #"faceAttributes.0":{"$exists":"false"}
     e_file_out = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Output/Crunchbase_Entrepreneurs_Rectangles_Output.json", 'w')
     
+    i = 0
+    
     for document in cursor:
+        print i
+        i += 1
         e_file_out.write(str(document)+"\n")
         #print str(document)
