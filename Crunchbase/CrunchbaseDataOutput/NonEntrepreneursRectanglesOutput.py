@@ -15,4 +15,4 @@ if __name__ == '__main__':
     e_file_out = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Output/Crunchbase_Non_Entrepreneurs_Rectangles_Output.json", 'w')
     
     for document in cursor:
-        e_file_out.write(str(document)+"\n") 
+        e_file_out.write(str(document)+"\n")

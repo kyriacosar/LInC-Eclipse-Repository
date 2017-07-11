@@ -16,4 +16,3 @@ if __name__ == '__main__':
     
     for document in cursor:
         e_file_out.write(str(document)+"\n")
-        #print str(document)
