@@ -1,7 +1,12 @@
-INSTUPCrunchbaseDataDictionaries.EntrepreneursFaceAttributesDictionaries
-/home/kyriacos/eclipse/Python/Crunchbase/CrunchbaseDataDictionaries/EntrepreneursFaceAttributesDictionaries.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0
+INSTUPCrunchbaseDataExtraction.WhiteGendersEntrepreneurs
+/home/kyriacos/eclipse/Python/Crunchbase/CrunchbaseDataExtraction/WhiteGendersEntrepreneurs.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0
+str_gender=8
+CrunchbaseDataExtraction.WhiteGendersEntrepreneurs=2
+jDict=7
 e_file_in=1
-CrunchbaseDataDictionaries.EntrepreneursFaceAttributesDictionaries=2
-record=4
+count=6
 e_file_out=3
+female=5
+male=4
+str_ethn=9

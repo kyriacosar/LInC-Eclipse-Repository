@@ -1,8 +1,1 @@
-INSTUPCrunchbaseDataDictionaries.NonEntrepreneursFaceAttributesDictionaries
-/home/kyriacos/eclipse/Python/Crunchbase/CrunchbaseDataDictionaries/NonEntrepreneursFaceAttributesDictionaries.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|4|2|0
-CrunchbaseDataDictionaries.NonEntrepreneursFaceAttributesDictionaries=2
-e_file_in=1
-record=5
-e_file_out=3
-i=4
+DELSTRCrunchbaseDataExtraction.PupilDistanceNonEntrepreneurs

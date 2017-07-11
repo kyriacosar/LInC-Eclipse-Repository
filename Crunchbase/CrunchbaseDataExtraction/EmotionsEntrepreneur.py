@@ -7,8 +7,8 @@ Created on Jun 29, 2017
 import json
 
 if __name__ == '__main__':
-    e_file_in = open("../CrunchbaseDataDictionaries/Crunchbase_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
-    e_file_out = open("Crunchbase_Entrepreneurs_Emotions.txt", "w")
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Dictionaries/Crunchbase_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Extraction/Crunchbase_Entrepreneurs_Emotions.txt", "w")
     
     sadness = 0
     neutral = 0
