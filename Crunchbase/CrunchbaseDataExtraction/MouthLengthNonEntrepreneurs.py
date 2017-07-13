@@ -30,8 +30,8 @@ if __name__ == '__main__':
     
     # Adding titles to the output file.
     e_file_out.write("Mouth length comparison of non Entrepreneurs:\n\n")
-    e_file_out.write("ID\t\t\tLength\n")
-    e_file_out.write("-"*9+"\t\t"+"-"*13+"\n")
+    e_file_out.write("ID\t\t\t\t\tLength\n")
+    e_file_out.write("-"*36+"\t"+"-"*13+"\n")
     
     # Reading the JSON formatted face landmarks records.   
     for record in e_file_in:   

@@ -36,7 +36,7 @@ if __name__ == '__main__':
             print("Error in json to dictionary translation.")
     
     e_file_out.write("Average non Entrepreneur emotions:\n\n")
-    e_file_out.write('sadness: '+str(sadness/count)+"\n")
+    e_file_out.write('Sadness: '+str(sadness/count)+"\n")
     e_file_out.write('Neutral: '+str(neutral/count)+"\n")
     e_file_out.write('Contempt: '+str(contempt/count)+"\n")
     e_file_out.write('Disgust: '+str(disgust/count)+"\n")

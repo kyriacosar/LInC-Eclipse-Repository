@@ -52,6 +52,6 @@ if __name__ == '__main__':
     
     e_file_out.write("\n\nEthnicity Percentages:\n")
     e_file_out.write("White: "+str(white)+" out of "+str(count)+" with percentage "+str(math.ceil((white/float(count))*100.0)))
-    e_file_out.write("\nBlack: "+str(black)+" out of "+str(count)+" with percentage "+str(math.ceil((black/float(count))*100.0)))
+    e_file_out.write("\nBlack: "+str(black)+" out of "+str(count)+" with percentage "+str(math.floor((black/float(count))*100.0)))
     e_file_out.write("\nAsian: "+str(asian)+" out of "+str(count)+" with percentage "+str(math.floor((asian/float(count))*100.0)))
     e_file_out.write("\nUndefined: "+str(undef)+" out of "+str(count)+" with percentage "+str(math.floor((undef/float(count))*100.0)))
