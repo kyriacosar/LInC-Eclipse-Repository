@@ -984,6 +984,9 @@ enum.__init__|/usr/lib/python2.7/dist-packages/enum/__init__.py
 enum.test_enum|/usr/lib/python2.7/dist-packages/enum/test_enum.py
 errno
 exceptions
+face_recognition.__init__|/usr/local/lib/python2.7/dist-packages/face_recognition-0.2.0-py2.7.egg/face_recognition/__init__.py
+face_recognition.api|/usr/local/lib/python2.7/dist-packages/face_recognition-0.2.0-py2.7.egg/face_recognition/api.py
+face_recognition.cli|/usr/local/lib/python2.7/dist-packages/face_recognition-0.2.0-py2.7.egg/face_recognition/cli.py
 fcntl
 filecmp|/usr/lib/python2.7/filecmp.py
 fileinput|/usr/lib/python2.7/fileinput.py

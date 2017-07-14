@@ -30,8 +30,8 @@ Lists.Functions|1497872936000000000|/home/kyriacos/eclipse/Python/Tests/Lists/Fu
 Tuples.Test|1497874442000000000|/home/kyriacos/eclipse/Python/Tests/Tuples/Test.py
 Dictionaries.List_in_Dictionary|1498046595000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/List_in_Dictionary.py
 Lists.LenFunction|1497873790000000000|/home/kyriacos/eclipse/Python/Tests/Lists/LenFunction.py
-Functions.SwitchCase|1497865834000000000|/home/kyriacos/eclipse/Python/Tests/Functions/SwitchCase.py
 Dictionaries.Exercise1|1499162812000000000|/home/kyriacos/eclipse/Python/Tests/Dictionaries/Exercise1.py
+Functions.SwitchCase|1497865834000000000|/home/kyriacos/eclipse/Python/Tests/Functions/SwitchCase.py
 -- END DISKCACHE
 -- START DICTIONARY
 22
@@ -42,7 +42,7 @@ Dictionaries.Exercise1|1499162812000000000|/home/kyriacos/eclipse/Python/Tests/D
 15=Lists.Mapping
 6=Dictionaries.Test
 9=Time.OddEven
-17=Lists.Comparison
+16=Lists.Comparison
 13=Intro_Set.Loops
 19=Lists.Sets
 18=Dictionaries.Functions
@@ -56,7 +56,7 @@ Dictionaries.Exercise1|1499162812000000000|/home/kyriacos/eclipse/Python/Tests/D
 8=Dictionaries.List_in_Dictionary
 2=Lists.LenFunction
 7=Functions.SwitchCase
-16=Dictionaries.Exercise1
+17=Dictionaries.Exercise1
 -- END DICTIONARY
 -- START TREE 1
 40
@@ -81,22 +81,22 @@ fru|1|fruit!19@
 j|1|j!107@
 lis|1|list_word!115@
 lsq|2|lSquares2!123@lSquares!123@
-my_|6|my_dict!131@my_list!131@my_list_1!139@my_list_2!139@my_square_function!130@my_dict!11@
+my_|6|my_list_2!131@my_dict!11@my_dict!139@my_list!139@my_list_1!131@my_square_function!138@
 myd|1|myDict!147@
-myl|2|myList!155@mylist!19@
-mys|2|mystr!27@mySet!155@
+myl|2|mylist!19@myList!155@
+mys|2|mySet!155@mystr!27@
 myt|4|myTuple!163@myTuple2!163@myTuple3!163@myTuple1!163@
-new|2|newlist!19@newData!91@
-num|4|nums!27@num_table!99@numbers!19@num_list!115@
-odd|2|odd!75@odd!83@
+new|2|newData!91@newlist!19@
+num|4|num_table!99@nums!27@numbers!19@num_list!115@
+odd|2|odd!83@odd!75@
 ori|1|origlist!19@
-pow|2|power!170@power2!122@
-sen|2|sent!27@sentence!107@
+pow|2|power2!122@power!170@
+sen|2|sentence!107@sent!27@
 tem|1|temp!19@
 tes|1|test!179@
 tim|3|time!83@timeCheck!74@time!75@
 wor|2|word!107@word!115@
-x|3|x!19@x!107@x!27@
+x|3|x!107@x!27@x!19@
 y|2|y!107@y!27@
 you|1|yourDict!147@
 z|1|z!27@

@@ -1,0 +1,13 @@
+'''
+Created on Jul 14, 2017
+
+@author: kyriacos
+'''
+
+import json
+
+if __name__ == '__main__':
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Dictionaries/Crunchbase_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
+    
+    for record in e_file_in:
+        print record
