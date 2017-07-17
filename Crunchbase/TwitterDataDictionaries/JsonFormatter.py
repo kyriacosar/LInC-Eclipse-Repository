@@ -23,6 +23,7 @@ def jsonFormatter(record):
     record=record.replace("accessories\": {", "accessories\": [")
     record=record.replace("}, {\"type\":", ",")
     record=record.replace("}, \"facialHair", "], \"facialHair")
+    record=record.replace("\"faceplusplus\": {", "")
     
     return record
 

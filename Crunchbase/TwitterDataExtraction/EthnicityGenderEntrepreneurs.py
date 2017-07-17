@@ -8,8 +8,8 @@ import json
 import math
 
 if __name__ == '__main__':
-    e_file_in = open("../TwitterDataDictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
-    e_file_out = open("Twitter_Entrepreneurs_Ethnicity_Gender_Percentages.txt", "w")
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Output/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Extraction/Twitter_Entrepreneurs_Ethnicity_Gender_Percentages.txt", "w")
     
     male = 0
     female = 0

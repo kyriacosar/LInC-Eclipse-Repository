@@ -8,8 +8,8 @@ Created on Jun 22, 2017
 from TwitterDataDictionaries.JsonFormatter import jsonFormatter
     
 if __name__ == '__main__':
-    e_file_in = open("../TwitterDataOutput/Twitter_Entrepreneurs_FaceLandmarks_Output.json", 'r')
-    e_file_out = open("Twitter_Entrepreneurs_FaceLandmarks_Dictionaries.json", "w")
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Output/Twitter_Entrepreneurs_FaceLandmarks_Output.json", 'r')
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceLandmarks_Dictionaries.json", "w")
     
     for line in e_file_in:   
         record = jsonFormatter(line)
