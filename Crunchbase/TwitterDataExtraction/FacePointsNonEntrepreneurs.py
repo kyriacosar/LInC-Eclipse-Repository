@@ -8,7 +8,7 @@ import json
 
 if __name__ == '__main__':
     e_file_in = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Non_Entrepreneurs_FacePoints_Dictionaries.json", "r")
-    e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Extraction/Twitter_Non_Entrepreneurs_FHWR.txt", "w")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Extraction/Twitter_Non_Entrepreneurs_Facial_Points.txt", "w")
     
     e_file_out.write("Face Points of non Entrepreneurs:\n\n")
     
