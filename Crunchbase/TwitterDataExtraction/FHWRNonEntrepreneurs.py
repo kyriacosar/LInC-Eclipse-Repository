@@ -13,7 +13,7 @@ if __name__ == '__main__':
     e_file_in_rect = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Non_Entrepreneurs_Rectangles_Dictionaries.json", "r")
     e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Extraction/Twitter_Non_Entrepreneurs_FHWR.txt", "w")
     
-    e_file_out.write("FHWR of Entrepreneurs:\n\n")
+    e_file_out.write("FHWR of non Entrepreneurs:\n\n")
     
     # Initialize variables.
     pos = 0

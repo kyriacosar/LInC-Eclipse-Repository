@@ -8,7 +8,7 @@ import json
 
 if __name__ == '__main__':
     e_file_in = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Dictionaries/Crunchbase_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
-    e_file_out = open("../../../../Documents/Crunchbase Project Data/Excel Imports/Crunchbase Imports/Crunchbase_Entrepreneurs_Whute_Happiness.txt", "w")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Excel Imports/Crunchbase Imports/Crunchbase_Entrepreneurs_White_Happiness.txt", "w")
     
     i=1
     

@@ -1,5 +1,5 @@
-INSTUPTwitterDataExtraction.FHWREntrepreneurs
-/home/kyriacos/eclipse/Python/Crunchbase/TwitterDataExtraction/FHWREntrepreneurs.py
+INSTUPTwitterDataExtraction.FHWRNonEntrepreneurs
+/home/kyriacos/eclipse/Python/Crunchbase/TwitterDataExtraction/FHWRNonEntrepreneurs.py
 INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0&&3|8|2|0&&3|9|2|0&&3|10|2|0&&3|11|2|0&&3|12|2|0&&3|13|2|0&&3|14|2|0&&3|15|2|0&&3|16|2|0&&3|15|2|0&&3|16|2|0&&3|17|2|0&&3|18|2|0&&3|19|2|0&&3|20|2|0&&3|21|2|0&&3|22|2|0&&3|23|2|0&&3|24|2|0&&3|25|2|0&&3|26|2|0&&3|27|2|0&&3|28|2|0&&3|29|2|0&&3|30|2|0&&3|31|2|0&&3|32|2|0&&3|33|2|0&&3|34|2|0&&3|34|2|0&&3|35|2|0&&3|32|2|0&&3|33|2|0&&3|36|2|0&&3|36|2|0&&3|37|2|0&&3|38|2|0
 yawDict=18
 adjusted_height=35
@@ -10,12 +10,12 @@ adjusted_height_sum=7
 rectSide=17
 left_eyebrow_y=27
 left_eyebrow_x=26
-TwitterDataExtraction.FHWREntrepreneurs=2
 contour_right_y=23
 contour_right_x=22
 pos=6
 right_eyebrow_x=28
 adjusted_width=37
+TwitterDataExtraction.FHWRNonEntrepreneurs=2
 mid_eyebrow_y=31
 mid_eyebrow_x=30
 partX=32

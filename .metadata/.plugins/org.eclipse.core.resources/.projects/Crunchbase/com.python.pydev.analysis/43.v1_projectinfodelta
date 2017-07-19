@@ -1,7 +1,7 @@
-INSTUPTwitterDataExtraction.FacePointsNonEntrepreneurs
-/home/kyriacos/eclipse/Python/Crunchbase/TwitterDataExtraction/FacePointsNonEntrepreneurs.py
+INSTUPCrunchbaseDataExtraction.FacePointsEntrepreneurs
+/home/kyriacos/eclipse/Python/Crunchbase/CrunchbaseDataExtraction/FacePointsEntrepreneurs.py
 INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0
+CrunchbaseDataExtraction.FacePointsEntrepreneurs=2
 jDict=4
 e_file_in=1
-TwitterDataExtraction.FacePointsNonEntrepreneurs=2
 e_file_out=3
