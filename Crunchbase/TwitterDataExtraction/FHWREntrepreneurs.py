@@ -8,10 +8,10 @@ import json
 import math
 
 if __name__ == '__main__':
-    e_file_in = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FacePoints_Dictionaries.json", "r")
-    e_file_in_att = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
-    e_file_in_rect = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_Rectangles_Dictionaries.json", "r")
-    e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Extraction/Twitter_Entrepreneurs_FHWR.txt", "w")
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FacePoints_Dictionaries.json", "r")
+    e_file_in_att = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
+    e_file_in_rect = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_Rectangles_Dictionaries.json", "r")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Extraction/Twitter_Entrepreneurs_FHWR.txt", "w")
     
     e_file_out.write("FHWR of Entrepreneurs:\n\n")
     

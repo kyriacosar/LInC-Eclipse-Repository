@@ -10,11 +10,11 @@ import math
 if __name__ == '__main__':
     # Opening the necessary files.
     # Input files:
-    e_file_in = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
-    e_file_in_att = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
-    e_file_in_rect = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_Rectangles_Dictionaries.json", "r")
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
+    e_file_in_att = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_FaceAttributes_Dictionaries.json", "r")
+    e_file_in_rect = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Dictionaries/Twitter_Entrepreneurs_Rectangles_Dictionaries.json", "r")
     # Output files:
-    e_file_out = open("../../../../Documents/Crunchbase Project Data/Twitter Results/Data Extraction/Twitter_Entrepreneurs_Pupil_Distance_Comparison.txt", "w")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Microsoft/Twitter Results/Data Extraction/Twitter_Entrepreneurs_Pupil_Distance_Comparison.txt", "w")
     
     # Initialize variables.
     pos = 0

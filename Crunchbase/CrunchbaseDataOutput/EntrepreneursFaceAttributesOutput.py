@@ -12,7 +12,7 @@ if __name__ == '__main__':
     collection_Entrepreneurs=db['Crunchbase_Faces_Entrepreneur']
     cursor = collection_Entrepreneurs.find({"$where" : "this.faceAttributes.length == 1"} ,{'faceAttributes.faceAttributes':1, 'faceAttributes.faceAttributes.accessories.type':1})
     #"faceAttributes.0":{"$exists":"false"}
-    e_file_out = open("../../../../Documents/Crunchbase Project Data/Crunchbase Results/Data Output/Crunchbase_Entrepreneurs_FaceAttributes_Output.json", 'w')
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Microsoft/Crunchbase Results/Data Output/Crunchbase_Entrepreneurs_FaceAttributes_Output.json", 'w')
     
     for document in cursor:
         e_file_out.write(str(document)+"\n")
