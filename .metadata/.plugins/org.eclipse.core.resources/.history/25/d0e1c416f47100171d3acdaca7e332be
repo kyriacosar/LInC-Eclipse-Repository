@@ -1,0 +1,68 @@
+'''
+Created on Jun 29, 2017
+
+@author: kyriacos
+'''
+
+import json
+import math
+
+if __name__ == '__main__':
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Complete/Data Dictionaries/Attributes_Dictionaries.json", "r")
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Complete/Data Extraction/Asian_Gender_Percentages.txt", "w")
+    
+    maleE = 0
+    maleAgeE = 0
+    femaleE = 0
+    femaleAgeE = 0
+    countE = 0
+    
+    maleN = 0
+    maleAgeN = 0
+    femaleN = 0
+    femaleAgeN = 0
+    countN = 0
+    
+    for record in e_file_in:   
+        try:
+            jDict = json.loads(record)
+            
+            is_entre = jDict['isEntre']
+            
+            str_gender = str(jDict['faceAttributes']['gender'])
+            
+            try:
+                str_ethn = str(jDict['faceAttributes']['ethnicity'])
+                if str_ethn == 'Asian':
+                    if str_gender == 'male':
+                        if is_entre == 1:
+                            maleE += 1
+                            maleAgeE += jDict['faceAttributes']['age']
+                            countE += 1
+                        else:
+                            maleN += 1
+                            maleAgeN += jDict['faceAttributes']['age']
+                            countN += 1
+                    elif str_gender == 'female':
+                        if is_entre == 1:
+                            femaleE += 1
+                            femaleAgeE += jDict['faceAttributes']['age']
+                            countE += 1
+                        else:
+                            femaleN += 1
+                            femaleAgeN += jDict['faceAttributes']['age']
+                            countN += 1
+            except KeyError:                    
+                print 
+                
+        except ValueError:
+            print("Error in json to dictionary translation.")
+            
+    e_file_out.write("Gender percentages among asian Entrepreneurs:\n\n")
+   
+    e_file_out.write("Males: "+str(maleE)+" out of "+str(countE)+" with percentage "+str(male/float(count)*100.0))
+    e_file_out.write("\nFemales: "+str(femaleE)+" out of "+str(count)+" with percentage "+str(female/float(count)*100.0))
+    
+    e_file_out.write("\n\nAverage age among asian Entrepreneurs:\n\n")
+    e_file_out.write("Male: "+str(maleAge/male))
+    e_file_out.write("\nFemale: "+str(femaleAge/female))

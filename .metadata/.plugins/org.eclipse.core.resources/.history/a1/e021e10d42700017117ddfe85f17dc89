@@ -1,0 +1,64 @@
+'''
+Created on Jul 24, 2017
+
+@author: kyriacos
+'''
+
+import json
+
+if __name__ == '__main__':
+    # Opening the necessary files.
+    # Input files:
+    e_file_in = open("../../../../Documents/Crunchbase Project Data/Microsoft/Crunchbase Results/Data Dictionaries/Crunchbase_Entrepreneurs_FaceLandmarks_Dictionaries.json", "r")
+    # Output files:
+    e_file_out = open("../../../../Documents/Crunchbase Project Data/Microsoft/Crunchbase Results/Data Extraction/Crunchbase_Entrepreneurs_Hair.txt", "w")
+    
+    # Initialize variables.
+    black = 0
+    other = 0
+    brown = 0
+    grey = 0
+    red = 0
+    blond = 0
+    bald = 0
+    count = 0
+    
+    # Adding titles to the output file.
+    e_file_out.write("Hair color of Entrepreneurs:\n\n")
+    e_file_out.write("ID\t\t\t\t\tBlack\tOther\tBrown\tGrey\tRed\tBlond\tBald\n")
+    e_file_out.write("-"*36+"\t"+"-"*5+"\t"+"-"*5+"\t"+"-"*5+"\t"+"-"*4+"\t"+"-"*3+"\t"+"-"*5+"\t"+"-"*4+"\n")
+    
+    # Reading the JSON formatted face landmarks records.    
+    for record in e_file_in:
+        try:            
+            # Converting the JSON record to a dictionary and isolating the ID field.
+            jDict = json.loads(record)
+            jID = jDict['_id']
+        
+            jInv = jDict['faceAttributes']['hair']['invisible']
+            if jInv == 'false':
+                jBlack = 0
+                jOther = 0
+                jBrown = 0
+                jGrey = 0
+                jRed = 0
+                jBlond = 0
+                jBald = 0
+            else:
+                jBlack = jDict['faceAttributes']['hair']['hairColor'][0]
+                jOther = jDict['faceAttributes']['hair']['hairColor'][1]
+                jBrown = jDict['faceAttributes']['hair']['hairColor'][2]
+                jGrey = jDict['faceAttributes']['hair']['hairColor'][3]
+                jRed = jDict['faceAttributes']['hair']['hairColor'][4]
+                jBlond = jDict['faceAttributes']['hair']['hairColor'][5]
+                jBald = jDict['faceAttributes']['hair']['bald']
+                
+            
+            # Printing results to file.
+            e_file_out.write(str(jDict['_id'])+"\t"+str(adjusted_dist)+"\n")
+                
+        except ValueError:
+                print("Error in json to dictionary translation.")
+    
+    # Calculating the average pupil distance and writing in the output file.
+    e_file_out.write("\nAverage distance: "+str(adjusted_dist_sum/count))

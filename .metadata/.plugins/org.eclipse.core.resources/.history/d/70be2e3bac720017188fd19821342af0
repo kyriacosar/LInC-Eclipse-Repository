@@ -1,0 +1,17 @@
+'''
+Created on Jul 27, 2017
+
+@author: kyriacos
+'''
+
+def getForEthn(ethn, fileIn, fileOut):
+    male = 0
+    maleAge = 0
+    female = 0
+    femaleAge = 0
+    count = 0
+    
+    e_file_in = open(fileIn)
+    e_file_out = open(fileOut)
+    
+    

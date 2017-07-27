@@ -11,6 +11,7 @@ Functions.PredeterminedParameters|/home/kyriacos/eclipse/Python/Tests/Functions/
 Functions.SwitchCase|/home/kyriacos/eclipse/Python/Tests/Functions/SwitchCase.py
 Functions.SwitchCaseTest|/home/kyriacos/eclipse/Python/Tests/Functions/SwitchCaseTest.py
 Functions.__init__|/home/kyriacos/eclipse/Python/Tests/Functions/__init__.py
+Input|/home/kyriacos/eclipse/Python/Tests/Input.py
 Intro_Set.FileHandler|/home/kyriacos/eclipse/Python/Tests/Intro_Set/FileHandler.py
 Intro_Set.Loops|/home/kyriacos/eclipse/Python/Tests/Intro_Set/Loops.py
 Intro_Set.Power|/home/kyriacos/eclipse/Python/Tests/Intro_Set/Power.py
